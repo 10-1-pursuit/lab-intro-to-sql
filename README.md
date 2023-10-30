@@ -28,7 +28,7 @@ Open the `regifter.sql` file with your text editor
 
 There is a prompt for each SQL command you should write. `\echo` will print the instructions ot he console.
 
-```sql
+```sql\d 
 --
 \echo Query for all the columns in your gifts table
 --
