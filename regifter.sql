@@ -197,16 +197,30 @@ SELECT * FROM gifts;
 --
  \echo Count the total number of gifts that have the word candle in it
 -- 
-
+SELECT COUNT(price) FROM gifts;
 
 --
 \echo Get the AVEREAGE value from all the gifts
 --
+SELECT AVG(price) FROM gifts;
 
+--          avg
+-- ---------------------
+--  20.8888888888888889
+-- (1 row)
 
 -- 
  \echo Limit to 3 gifts, offset by 2 and order by price descending
 --
+SELECT * FROM gifts ORDER BY price DESC LIMIT 3 OFFSET 2;
+
+--  id |      gift       | giver  | price | previously_regifted
+-- ----+-----------------+--------+-------+---------------------
+--   4 | soap on a rope  | Rudolf |    29 | f
+--   8 | nutmeg candle   | Nicki  |    22 | f
+--   3 | cinnamon candle | Nick   |    19 | t
+-- (3 rows)
+
 
 --
 -- finish
