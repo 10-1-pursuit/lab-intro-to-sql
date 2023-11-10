@@ -1,4 +1,4 @@
--- Getting started, do not update
+-- Getting started, do not update ##2
 DROP DATABASE IF EXISTS regifter;
 CREATE DATABASE regifter;
 \c regifter
@@ -16,11 +16,13 @@ CREATE DATABASE regifter;
 -- value - integer
 -- previously_regifted boolean
 
+CREATE TABLE gifts (id SERIAL PRIMARY KEY, 
+gift TEXT, giver TEXT, value INT, previously_gifted BOOLEAN);
 
 -- 
 \echo See details of the table you created
 -- 
-
+\d gifts
 
 -- 
 \echo Alter the table so that the column price is changed to value 
