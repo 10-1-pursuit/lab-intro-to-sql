@@ -1,4 +1,4 @@
--- Getting started, do not update ##2
+-- Getting started, do not update
 DROP DATABASE IF EXISTS regifter;
 CREATE DATABASE regifter;
 \c regifter
