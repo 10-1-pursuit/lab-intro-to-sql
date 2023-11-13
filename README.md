@@ -1,4 +1,23 @@
-# SQL Regifter
+# SQL Regifter pt 2
+
+
+
+Which resource did you choose to use?
+Honestly, I jumped right into football stats cuz i wanted to see if i could figure it out. I was quickly overwhelmed so now ive gone to SQL ZOO and its bookmarked.
+
+What are three things you learned during this lab?
+
+
+1. its SO unforgiving, I dont know what but it just looks diffrent and therefore its hard to see whats wrong.
+2. CHAT GPT is great but it knows many diffrent ways to sort and join information--too many. gotta stay away from till i get more comfortable.
+3. I still dont get creating the reference? do we make them? if so--my tuner app needs more help lol
+
+
+
+
+
+
+
 
 # Regftr
 
